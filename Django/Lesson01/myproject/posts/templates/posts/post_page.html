@@ -8,7 +8,7 @@
     <section>
         <img class="banner" src="{{ post.banner.url }}" alt="{{ post.title }}" />
         <p>{{ post.body }}</p>
-        <p><strong>Published on:</strong> {{ post.date }}</p>
+        <p><strong>Published on:</strong> {{ post.date }} by {{ post.author }}</p>
         <a href="{% url 'posts:list' %}">Back to posts list</a>
     </section>
 {% endblock %}

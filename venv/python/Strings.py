@@ -39,6 +39,24 @@ my_string.lower()
 my_string.startswith("Hello")
 my_string.endswith("World")
 
+stringX = "hello"
+print(stringX.capitalize()) #capitalizes the first letter of the string
+
+# find replace count
+
+my_string.find("World")
+my_string.replace("World","Universe")   
+
+#splitting the string
+my_string.split(" ")
+
+#count
+my_string.count("l")
+
+#reversing the string
+my_string[::-1]
+#string[start : end : step]
+
 
 #check for substring 
 my_string.find("he")

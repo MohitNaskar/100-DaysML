@@ -21,3 +21,6 @@ print(mydict2)
 
 mydict.update(mydict2)
 print(mydict)
+
+#get method
+value = mydict.get("Name")

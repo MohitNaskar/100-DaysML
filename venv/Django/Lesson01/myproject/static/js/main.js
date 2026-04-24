@@ -1,1 +1,0 @@
-console.log('THis is js from static')
